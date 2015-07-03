@@ -2,7 +2,7 @@
 			Version 3.2
 			Stylesheet by Cryptonaut
 			Last modified: 01 MAY 2015
-			Details: This is a custom template made by /u/Cryptonaut. 
+			Details: This is a custom template made by /u/Cryptonaut.
 			Find out more on /r/Naut.
 
 			--------------------------------------------------------------------------
@@ -15,7 +15,7 @@
 			V2.1 - Update 5 - Initial CSS3 update - Added transitions and minor responsive tweaks.
 			V2.2 - Update 6 - Bugfixes and the return of the suggest-title button.
 			V2.3 - Update 7 - Bugfixes, including the search button.
-			V3.0 - Update 8 - Complete rewrite to include easier customizing of colours, 
+			V3.0 - Update 8 - Complete rewrite to include easier customizing of colours,
 							  sizes and margins, more transitions and animations and
 							  much more. See /r/Naut for more
 			V3.1 - Update 9 - Many bugfixes and some changes for easier customization
@@ -30,10 +30,47 @@
 
 /* ===============================================================================================================================
 
-	
+
 										/////
 						Add addons & your own customizations below here!
 										/////
 
+/* --- Addon: Header Background Image --- */
+body:before {
+    background-color: #292c36;
+    background-image: none;
+}
+
+#header .tabmenu li a, .pagename a {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
+/* --- End Addon --- */
+
+/* --- Addon: Button color (Secondary Color) --- */
+.morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar,
+.submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar,
+.submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active
+.expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a,
+.res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {background-color: #ed4235}
+
+    /* Hover color = 10% white overlay color */
+    .morelink:hover, .submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover, .btn:hover, button:hover,
+    .side .titlebox .md h3 a:hover, .titlebox .fancy-toggle-button .add:hover, .titlebox .fancy-toggle-button .add:hover:after
+     {background-color: #f85d5d;}
+
+    /* Active color = 10% black overlay color */
+    .morelink:active, .side .titlebox .md h3 a:active, .btn:active, button:active {background-color: #bd3b3b;}
+
+/* --- End Addon --- */
+
+
+/* --- Addon: Link Color (Tertiary Color) - This color should be either similiar to the primary color,
+or to the secondary color. Else the page will become too busy.-- */
+a, .link .entry .buttons li a.comments, .md a, .titlebox .tagline a.flairselectbtn,
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title,
+body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .entry .buttons li a:hover,
+.link .entry .buttons li a.flairselectbtn, .comment .flat-list li a[onclick*="reply"],
+.comment .flat-list li a:hover, .tagline .submitter, .tagline .submitter, .side:after,
+.usertext .bottom-area a.reddiquette, .side .titlebox .md h6 a, .link .entry .tagline a:hover, .comment .author:hover
+ {color: #bb3128;}
+/* --- End Addon --- */
 
 ==================================================================================================================================*/
