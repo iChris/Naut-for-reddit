@@ -72,5 +72,34 @@ body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .ent
 .usertext .bottom-area a.reddiquette, .side .titlebox .md h6 a, .link .entry .tagline a:hover, .comment .author:hover
  {color: #bb3128;}
 /* --- End Addon --- */
+/* --- Addon: Content Header Announcement Message --- */
+body.listing-page>.content {margin-top: 132px;}
+
+.side .titlebox .md h5 {
+    position: absolute;
+    right: 332px;
+    left: 16px;
+    z-index: 102;
+    height: auto;
+    top: 96px;
+    padding: 11px 11px 11px 16px;
+    border-radius: 2px;
+    background-color: #FFF;
+    color: #4D5763;
+    font-weight: normal;
+    border-bottom: 1px solid #F2F2F2;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    line-height: 1;
+}
+
+    .side .titlebox .md h5 a {
+        font-weight: bold;
+        color: #4F8EF7;
+    }
+
+        .side .titlebox .md h5 a:hover {text-decoration: underline;}
+
+/* --- End Addon --- */
 
 ==================================================================================================================================*/
